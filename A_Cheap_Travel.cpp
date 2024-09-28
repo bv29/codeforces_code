@@ -7,8 +7,16 @@ typedef long long ll;
 
 
 void solve(){
-    saurabh verma is the very intelligenet 
-      
+  
+    int n, m, a, b;
+    
+    cin >> n >> m >> a >> b;
+    if (m * a <= b)
+        cout << n * a << "\n";
+    else 
+        cout << (n/m) * b + min((n%m) * a, b) << "\n";
+ 
+
 }
 
 int32_t main() {

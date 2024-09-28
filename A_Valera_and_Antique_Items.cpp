@@ -7,7 +7,21 @@ typedef long long ll;
 
 
 void solve(){
-      
+
+   ll n,v;
+   cin>>n>>v;
+   ll k, arr[k];
+
+    for(ll i=0;i<n;i++){
+        cin>>k;
+         for(ll i=0;i<k;i++)
+         {
+            ll a;
+            if(a<v){
+                cout<<i;
+            }
+   }   
+}
 }
 
 int32_t main() {
